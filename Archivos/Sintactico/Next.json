@@ -1,0 +1,117 @@
+[
+    {
+        "numeroNext": 1,
+        "parteIzquierda": "P",
+        "parteDerecha": "$"
+    },
+    {
+        "numeroNext": 2,
+        "parteIzquierda": "D",
+        "parteDerecha": "p"
+    },
+    {
+        "numeroNext": 3,
+        "parteIzquierda": "I",
+        "parteDerecha": "}"
+    },
+    {
+        "numeroNext": 4,
+        "parteIzquierda": "U",
+        "parteDerecha": "p e r l c d"
+    },
+    {
+        "numeroNext": 5,
+        "parteIzquierda": "C",
+        "parteDerecha": "i"
+    },
+    {
+        "numeroNext": 6,
+        "parteIzquierda": "L",
+        "parteDerecha": "@"
+    },
+    {
+        "numeroNext": 7,
+        "parteIzquierda": "N",
+        "parteDerecha": ", @ )"
+    },
+    {
+        "numeroNext": 8,
+        "parteIzquierda": "X",
+        "parteDerecha": "} ] q x g k j y h i"
+    },
+    {
+        "numeroNext": 9,
+        "parteIzquierda": "Y",
+        "parteDerecha": "} ] q x g k j y h i"
+    },
+    {
+        "numeroNext": 10,
+        "parteIzquierda": "W",
+        "parteDerecha": "} ] q x g k j y h i"
+    },
+    {
+        "numeroNext": 11,
+        "parteIzquierda": "S",
+        "parteDerecha": "} ] q x g k j y h i"
+    },
+    {
+        "numeroNext": 12,
+        "parteIzquierda": "V",
+        "parteDerecha": "} ] q x g k j y h i"
+    },
+    {
+        "numeroNext": 13,
+        "parteIzquierda": "R",
+        "parteDerecha": "} ] q x g k j y h i"
+    },
+    {
+        "numeroNext": 14,
+        "parteIzquierda": "O",
+        "parteDerecha": "} ] q x g k j y h i"
+    },
+    {
+        "numeroNext": 15,
+        "parteIzquierda": "M",
+        "parteDerecha": "} ] q x g k j y h i @"
+    },
+    {
+        "numeroNext": 16,
+        "parteIzquierda": "A",
+        "parteDerecha": "} ] q x g k j y h i"
+    },
+    {
+        "numeroNext": 17,
+        "parteIzquierda": "Z",
+        "parteDerecha": ")"
+    },
+    {
+        "numeroNext": 18,
+        "parteIzquierda": "Q",
+        "parteDerecha": "} ] q x g k j y h i"
+    },
+    {
+        "numeroNext": 19,
+        "parteIzquierda": "G",
+        "parteDerecha": ")"
+    },
+    {
+        "numeroNext": 20,
+        "parteIzquierda": "E",
+        "parteDerecha": "@ o & # > < z % = ) + -"
+    },
+    {
+        "numeroNext": 21,
+        "parteIzquierda": "B",
+        "parteDerecha": "i ( a v f"
+    },
+    {
+        "numeroNext": 22,
+        "parteIzquierda": "T",
+        "parteDerecha": "@ o & # > < z % = ) + - * / ^"
+    },
+    {
+        "numeroNext": 23,
+        "parteIzquierda": "F",
+        "parteDerecha": "@ o & # > < z % = ) + - * / ^"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    // {
+    //     "num": 100,
+    //     "name": "not_found",
+    //     "message": "Elemento no encontrado"
+    // },
+    // {
+    //     "num": 102,
+    //     "name": "exception_integer",
+    //     "message": "El carácter no es un numero entero valido"
+    // },
+    // {
+    //     "num": 103,
+    //     "name": "exception_string",
+    //     "message": "El caráter no es una cadena"
+    // },
+    // {
+    //     "num": 104,
+    //     "name": "exception_char",
+    //     "message": "El carácter no es un tipo char"
+    // },
+    // {
+    //     "num": 105,
+    //     "name": "exception_real",
+    //     "message": "El caracter no es un numero real valido"
+    // },
+    // {
+    //     "num": 106,
+    //     "name": "exception_sintax",
+    //     "message": "Se ha encontrado un error de sintaxis"
+    // },
+    // {
+    //     "num": 107,
+    //     "name": "err_identifier",
+    //     "message": "Identificador no valido"
+    // },
+    // {
+    //     "num": 108,
+    //     "name": "exception_log",
+    //     "message": "Elemento no es un de tipo booleano"
+    // },
+    // {
+    //     "num": 109,
+    //     "name": "index_not_found",
+    //     "message": "No se encuantra la clase primaria"
+    // },
+    // {
+    //     "num": 110,
+    //     "name": "err_target",
+    //     "message": "Elemento mal asignado"
+    // },
+    // {
+    //     "num": 111,
+    //     "name": "exception_sintax_variable",
+    //     "message": "variable no declarada"
+    // },
+    // {
+    //     "num": 112,
+    //     "name": "exception_sintax_variable",
+    //     "message": "variable ya ha sido declarada"
+    // },
+    // {
+    //     "num": 113,
+    //     "name": "exception_symbol",
+    //     "message": "simbolo no reconocido"
+    // },
+    // {
+    //     "num": 114,
+    //     "name": "It_is_not_a_data_type",
+    //     "message": "no es un tipo de dato"
+    // },
+    {
+        "num": 115,
+        "name": "faltan datos",
+        "message": "ingrese el tipo de dato y el identificador"
+    },{
+        "num": 116,
+        "name": "tipo de dato",
+        "message": "no es un tipo de dato"
+    },{
+        "num": 117,
+        "name": "indentificador no valido",
+        "message": "no es un identificador recuerde que los identificadores inician con #"
+    },{
+        "num": 118,
+        "name": "caracteres excedidos",
+        "message": "ingrese maximo 30 caracteres en un identifacador"
+    },{
+        "num": 119,
+        "name": "erro de declaracion",
+        "message": "es una variable no declarada"
+    },{
+        "num": 120,
+        "name": "variable encontrada",
+        "message": "fue encontrada en la tabla de simbolos"
+    },{
+        "num": 121,
+        "name": "concurrencia",
+        "message": "ya es una variable declarada en la tabla de simbolos"
+    }
+
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "numeroToken": 1,
+        "sinonimoToken": "i",
+        "nombreToken": "identificador",
+        "lexemaToken": " #letra (letra |digito | _)* "
+    },
+    {
+        "numeroToken": 2,
+        "sinonimoToken": "+",
+        "nombreToken": "operadorsuma",
+        "lexemaToken": "+"
+    },
+    {
+        "numeroToken": 3,
+        "sinonimoToken": "-",
+        "nombreToken": " operadoresta",
+        "lexemaToken": "-"
+    },
+    {
+        "numeroToken": 4,
+        "sinonimoToken": "*",
+        "nombreToken": "operadormultiplicacion",
+        "lexemaToken": "*"
+    },
+    {
+        "numeroToken": 5,
+        "sinonimoToken": "/",
+        "nombreToken": "operadordivision",
+        "lexemaToken": " /"
+    },
+    {
+        "numeroToken": 6,
+        "sinonimoToken": "^",
+        "nombreToken": "operadorpotencia",
+        "lexemaToken": "^"
+    },
+    {
+        "numeroToken": 7,
+        "sinonimoToken": "&",
+        "nombreToken": "operadorand",
+        "lexemaToken": "&&"
+    },
+    {
+        "numeroToken": 8,
+        "sinonimoToken": "o",
+        "nombreToken": "operadoror",
+        "lexemaToken": "||"
+    },
+    {
+        "numeroToken": 9,
+        "sinonimoToken": "<",
+        "nombreToken": "menorque",
+        "lexemaToken": "< "
+    },
+    {
+        "numeroToken": 10,
+        "sinonimoToken": ">",
+        "nombreToken": "mayorque",
+        "lexemaToken": "> "
+    },
+    {
+        "numeroToken": 11,
+        "sinonimoToken": "=",
+        "nombreToken": "igualque",
+        "lexemaToken": "= "
+    },
+    {
+        "numeroToken": 12,
+        "sinonimoToken": "%",
+        "nombreToken": "menorigualque",
+        "lexemaToken": "<="
+    },
+    {
+        "numeroToken": 13,
+        "sinonimoToken": "z",
+        "nombreToken": "mayorigual",
+        "lexemaToken": ">="
+    },
+    {
+        "numeroToken": 14,
+        "sinonimoToken": "#",
+        "nombreToken": "diferenteque",
+        "lexemaToken": "<"
+    },
+    {
+        "numeroToken": 15,
+        "sinonimoToken": "v",
+        "nombreToken": "verdadero",
+        "lexemaToken": true
+    },
+    {
+        "numeroToken": 16,
+        "sinonimoToken": "f",
+        "nombreToken": "falso",
+        "lexemaToken": false
+    },
+    {
+        "numeroToken": 17,
+        "sinonimoToken": "e",
+        "nombreToken": "entero",
+        "lexemaToken": "integer"
+    },
+    {
+        "numeroToken": 18,
+        "sinonimoToken": "r",
+        "nombreToken": "real",
+        "lexemaToken": "real"
+    },
+    {
+        "numeroToken": 19,
+        "sinonimoToken": "l",
+        "nombreToken": "lógico",
+        "lexemaToken": "bool"
+    },
+    {
+        "numeroToken": 20,
+        "sinonimoToken": "c",
+        "nombreToken": "carácter",
+        "lexemaToken": "char"
+    },
+    {
+        "numeroToken": 21,
+        "sinonimoToken": "d",
+        "nombreToken": "cadena",
+        "lexemaToken": "string"
+    },
+    {
+        "numeroToken": 22,
+        "sinonimoToken": "p",
+        "nombreToken": "programa",
+        "lexemaToken": "main"
+    },
+    {
+        "numeroToken": 23,
+        "sinonimoToken": "{",
+        "nombreToken": "comienzobloque",
+        "lexemaToken": "{"
+    },
+    {
+        "numeroToken": 24,
+        "sinonimoToken": "}",
+        "nombreToken": "finbloque",
+        "lexemaToken": "}"
+    },
+    {
+        "numeroToken": 25,
+        "sinonimoToken": "¿",
+        "nombreToken": "operasigna",
+        "lexemaToken": ":="
+    },
+    {
+        "numeroToken": 26,
+        "sinonimoToken": "q",
+        "nombreToken": "si",
+        "lexemaToken": "if"
+    },
+    {
+        "numeroToken": 27,
+        "sinonimoToken": "x",
+        "nombreToken": "mientras",
+        "lexemaToken": "while"
+    },
+    {
+        "numeroToken": 28,
+        "sinonimoToken": "y",
+        "nombreToken": "bucle",
+        "lexemaToken": "do"
+    },
+    {
+        "numeroToken": 29,
+        "sinonimoToken": "g",
+        "nombreToken": "repetir",
+        "lexemaToken": "for"
+    },
+    {
+        "numeroToken": 30,
+        "sinonimoToken": "h",
+        "nombreToken": "incremento",
+        "lexemaToken": "increment"
+    },
+    {
+        "numeroToken": 31,
+        "sinonimoToken": "j",
+        "nombreToken": "leer",
+        "lexemaToken": "get"
+    },
+    {
+        "numeroToken": 32,
+        "sinonimoToken": "k",
+        "nombreToken": "escribir",
+        "lexemaToken": "print"
+    },
+    {
+        "numeroToken": 33,
+        "sinonimoToken": "m",
+        "nombreToken": "continuar",
+        "lexemaToken": "continue"
+    },
+    {
+        "numeroToken": 34,
+        "sinonimoToken": ",",
+        "nombreToken": "coma",
+        "lexemaToken": ","
+    },
+    {
+        "numeroToken": 35,
+        "sinonimoToken": "(",
+        "nombreToken": "parentesisizq",
+        "lexemaToken": "("
+    },
+    {
+        "numeroToken": 36,
+        "sinonimoToken": ")",
+        "nombreToken": "parentesisder",
+        "lexemaToken": ")"
+    },
+    {
+        "numeroToken": 37,
+        "sinonimoToken": "@",
+        "nombreToken": "puntoycoma",
+        "lexemaToken": ";"
+    },
+    {
+        "numeroToken": 38,
+        "sinonimoToken": "ñ",
+        "nombreToken": "hasta",
+        "lexemaToken": "until"
+    },
+    {
+        "numeroToken": 39,
+        "sinonimoToken": "?",
+        "nombreToken": "dospuntos",
+        "lexemaToken": ":"
+    },
+    {
+        "numeroToken": 40,
+        "sinonimoToken": "¡",
+        "nombreToken": "declarar",
+        "lexemaToken": "declare"
+    },
+    {
+        "numeroToken": 41,
+        "sinonimoToken": "]",
+        "nombreToken": "romper",
+        "lexemaToken": "break"
+    },
+    {
+        "numeroToken": 42,
+        "sinonimoToken": "a",
+        "nombreToken": "literalreal",
+        "lexemaToken": " (+|-)digito+.digito+| digito+.digito+"
+    },
+    {
+        "numeroToken": 43,
+        "sinonimoToken": "a",
+        "nombreToken": "literalentero",
+        "lexemaToken": "digito+"
+    },
+    {
+        "numeroToken": 44,
+        "sinonimoToken": "a",
+        "nombreToken": "literalcadena",
+        "lexemaToken": " “(letra | digito |simbolos)+” "
+    },
+    {
+        "numeroToken": 45,
+        "sinonimoToken": "a",
+        "nombreToken": "literalchar",
+        "lexemaToken": "`letra|digito|simbolos`"
+    }
+]

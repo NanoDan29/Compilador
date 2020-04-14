@@ -1,0 +1,21 @@
+¡
+e i @
+e i @
+e i @
+e i @
+p {
+	y {
+	   i ¿ a @
+	  } x ( i % i ) @
+
+	i ¿ a @
+	i ¿ a @
+
+	k ( i ) @
+
+	g ( ¿ a ) { 
+	   k ( i ) @
+	   i ¿ i + i @
+	   i ¿ i - i @
+	} ( i % i ) h i + @ 
+}

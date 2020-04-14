@@ -1,0 +1,362 @@
+[
+    {
+        "numeroRegla": 1,
+        "parteIzquierda": "P",
+        "parteDerecha": "¡ D p { I }",
+        "longitud": 6
+    },
+    {
+        "numeroRegla": 2,
+        "parteIzquierda": "D",
+        "parteDerecha": "U",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 3,
+        "parteIzquierda": "D",
+        "parteDerecha": "U D",
+        "longitud": 2
+    },
+    {
+        "numeroRegla": 4,
+        "parteIzquierda": "U",
+        "parteDerecha": "C L @",
+        "longitud": 3
+    },
+    {
+        "numeroRegla": 5,
+        "parteIzquierda": "C",
+        "parteDerecha": "e",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 6,
+        "parteIzquierda": "C",
+        "parteDerecha": "r",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 7,
+        "parteIzquierda": "C",
+        "parteDerecha": "l",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 8,
+        "parteIzquierda": "C",
+        "parteDerecha": "c",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 9,
+        "parteIzquierda": "C",
+        "parteDerecha": "d",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 10,
+        "parteIzquierda": "L",
+        "parteDerecha": "i N , L",
+        "longitud": 4
+    },
+    {
+        "numeroRegla": 11,
+        "parteIzquierda": "L",
+        "parteDerecha": "i N",
+        "longitud": 2
+    },
+    {
+        "numeroRegla": 12,
+        "parteIzquierda": "N",
+        "parteDerecha": "¿ a",
+        "longitud": 2
+    },
+    {
+        "numeroRegla": 13,
+        "parteIzquierda": "N",
+        "parteDerecha": "¿ f",
+        "longitud": 2
+    },
+    {
+        "numeroRegla": 14,
+        "parteIzquierda": "N",
+        "parteDerecha": "¿ v",
+        "longitud": 2
+    },
+    {
+        "numeroRegla": 15,
+        "parteIzquierda": "N",
+        "parteDerecha": "",
+        "longitud": 0
+    },
+    {
+        "numeroRegla": 16,
+        "parteIzquierda": "I",
+        "parteDerecha": "X",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 17,
+        "parteIzquierda": "I",
+        "parteDerecha": "X I",
+        "longitud": 2
+    },
+    {
+        "numeroRegla": 18,
+        "parteIzquierda": "X",
+        "parteDerecha": "Y",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 19,
+        "parteIzquierda": "X",
+        "parteDerecha": "W",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 20,
+        "parteIzquierda": "X",
+        "parteDerecha": "S",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 21,
+        "parteIzquierda": "X",
+        "parteDerecha": "V",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 22,
+        "parteIzquierda": "X",
+        "parteDerecha": "R",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 23,
+        "parteIzquierda": "X",
+        "parteDerecha": "O",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 24,
+        "parteIzquierda": "X",
+        "parteDerecha": "M",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 25,
+        "parteIzquierda": "X",
+        "parteDerecha": "A",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 26,
+        "parteIzquierda": "X",
+        "parteDerecha": "]",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 27,
+        "parteIzquierda": "Y",
+        "parteDerecha": "q ( Z ) { I } Q",
+        "longitud": 8
+    },
+    {
+        "numeroRegla": 28,
+        "parteIzquierda": "Q",
+        "parteDerecha": "m { I }",
+        "longitud": 4
+    },
+    {
+        "numeroRegla": 29,
+        "parteIzquierda": "Q",
+        "parteDerecha": "",
+        "longitud": 0
+    },
+    {
+        "numeroRegla": 30,
+        "parteIzquierda": "W",
+        "parteDerecha": "x ( Z ) { I }",
+        "longitud": 7
+    },
+    {
+        "numeroRegla": 31,
+        "parteIzquierda": "S",
+        "parteDerecha": "g ( i N ) { I } ( Z ) M @",
+        "longitud": 13
+    },
+    {
+        "numeroRegla": 32,
+        "parteIzquierda": "M",
+        "parteDerecha": "h i +",
+        "longitud": 3
+    },
+    {
+        "numeroRegla": 33,
+        "parteIzquierda": "M",
+        "parteDerecha": "h i -",
+        "longitud": 3
+    },
+    {
+        "numeroRegla": 34,
+        "parteIzquierda": "O",
+        "parteDerecha": "y { I } x ( Z ) @",
+        "longitud": 9
+    },
+    {
+        "numeroRegla": 35,
+        "parteIzquierda": "V",
+        "parteDerecha": "k ( G ) @",
+        "longitud": 5
+    },
+    {
+        "numeroRegla": 36,
+        "parteIzquierda": "R",
+        "parteDerecha": "j ( G ) @",
+        "longitud": 5
+    },
+    {
+        "numeroRegla": 37,
+        "parteIzquierda": "G",
+        "parteDerecha": "i , G",
+        "longitud": 3
+    },
+    {
+        "numeroRegla": 38,
+        "parteIzquierda": "G",
+        "parteDerecha": "i",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 39,
+        "parteIzquierda": "A",
+        "parteDerecha": "i ¿ E @",
+        "longitud": 4
+    },
+    {
+        "numeroRegla": 40,
+        "parteIzquierda": "Z",
+        "parteDerecha": "E B E",
+        "longitud": 3
+    },
+    {
+        "numeroRegla": 41,
+        "parteIzquierda": "B",
+        "parteDerecha": "o",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 42,
+        "parteIzquierda": "B",
+        "parteDerecha": "&",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 43,
+        "parteIzquierda": "B",
+        "parteDerecha": "#",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 44,
+        "parteIzquierda": "B",
+        "parteDerecha": ">",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 45,
+        "parteIzquierda": "B",
+        "parteDerecha": "<",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 46,
+        "parteIzquierda": "B",
+        "parteDerecha": "z",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 47,
+        "parteIzquierda": "B",
+        "parteDerecha": "%",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 48,
+        "parteIzquierda": "B",
+        "parteDerecha": "=",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 49,
+        "parteIzquierda": "E",
+        "parteDerecha": "E + T",
+        "longitud": 3
+    },
+    {
+        "numeroRegla": 50,
+        "parteIzquierda": "E",
+        "parteDerecha": "E - T",
+        "longitud": 3
+    },
+    {
+        "numeroRegla": 51,
+        "parteIzquierda": "E",
+        "parteDerecha": "T",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 52,
+        "parteIzquierda": "T",
+        "parteDerecha": "T * F",
+        "longitud": 3
+    },
+    {
+        "numeroRegla": 53,
+        "parteIzquierda": "T",
+        "parteDerecha": "T / F",
+        "longitud": 3
+    },
+    {
+        "numeroRegla": 54,
+        "parteIzquierda": "T",
+        "parteDerecha": "T ^ F",
+        "longitud": 3
+    },
+    {
+        "numeroRegla": 55,
+        "parteIzquierda": "T",
+        "parteDerecha": "F",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 56,
+        "parteIzquierda": "F",
+        "parteDerecha": "i",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 57,
+        "parteIzquierda": "F",
+        "parteDerecha": "( E )",
+        "longitud": 3
+    },
+    {
+        "numeroRegla": 58,
+        "parteIzquierda": "F",
+        "parteDerecha": "a",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 59,
+        "parteIzquierda": "F",
+        "parteDerecha": "v",
+        "longitud": 1
+    },
+    {
+        "numeroRegla": 60,
+        "parteIzquierda": "F",
+        "parteDerecha": "f",
+        "longitud": 1
+    }
+]
