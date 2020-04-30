@@ -152,7 +152,7 @@ namespace ProyectoCompiladores.Léxico.Clases
                 }
 
             }
-            //Console.WriteLine(valor + "");
+          
 
             return valor;
         }
@@ -173,9 +173,7 @@ namespace ProyectoCompiladores.Léxico.Clases
 
                     if (cortar[i].Equals(Convert.ToChar(MTransicion[0, j])))
                     {
-
-                        valor = acceso(valor, j);
-                     
+                        valor = acceso(valor, j);  
                         misMovimientos = new movimientos
                         {
                             EstadoInicial = aux+"",
@@ -183,8 +181,6 @@ namespace ProyectoCompiladores.Léxico.Clases
                             EstadoFinal = valor+""
                         };
                         aux = valor;
-                        
-                       
                         lista.Add(misMovimientos);
                     }
 
