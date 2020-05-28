@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.tblTrancisiones = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.Tabla = new System.Windows.Forms.TabPage();
@@ -38,12 +37,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tblPrifil = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tblAlfabeto = new System.Windows.Forms.DataGridView();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.txtLexico = new System.Windows.Forms.RichTextBox();
             this.tblMovimientos = new System.Windows.Forms.DataGridView();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tblAlfabeto = new System.Windows.Forms.DataGridView();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tblTrancisiones)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -51,9 +51,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.tblValor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblPrifil)).BeginInit();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tblAlfabeto)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tblMovimientos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tblAlfabeto)).BeginInit();
             this.SuspendLayout();
             // 
             // tblTrancisiones
@@ -64,16 +64,6 @@
             this.tblTrancisiones.Size = new System.Drawing.Size(732, 425);
             this.tblTrancisiones.TabIndex = 5;
             this.tblTrancisiones.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TblTrancisiones_CellContentClick);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(304, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 44);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Leer Archivo";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // tabControl1
             // 
@@ -93,7 +83,6 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.tblTrancisiones);
-            this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -165,9 +154,25 @@
             this.tabPage3.Text = "Alfabeto";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // tblAlfabeto
+            // 
+            this.tblAlfabeto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tblAlfabeto.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.tblAlfabeto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tblAlfabeto.Location = new System.Drawing.Point(4, 5);
+            this.tblAlfabeto.Margin = new System.Windows.Forms.Padding(2);
+            this.tblAlfabeto.Name = "tblAlfabeto";
+            this.tblAlfabeto.RowHeadersWidth = 51;
+            this.tblAlfabeto.Size = new System.Drawing.Size(785, 495);
+            this.tblAlfabeto.TabIndex = 0;
+            this.tblAlfabeto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TblAlfabeto_CellContentClick);
+            // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.richTextBox1);
+            this.tabPage4.Controls.Add(this.button1);
+            this.tabPage4.Controls.Add(this.txtLexico);
             this.tabPage4.Controls.Add(this.tblMovimientos);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
@@ -176,6 +181,14 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Movimientos";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // txtLexico
+            // 
+            this.txtLexico.Location = new System.Drawing.Point(6, 56);
+            this.txtLexico.Name = "txtLexico";
+            this.txtLexico.Size = new System.Drawing.Size(427, 446);
+            this.txtLexico.TabIndex = 7;
+            this.txtLexico.Text = "";
             // 
             // tblMovimientos
             // 
@@ -208,28 +221,15 @@
             this.tabPage6.Text = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // tblAlfabeto
+            // button1
             // 
-            this.tblAlfabeto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tblAlfabeto.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.tblAlfabeto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tblAlfabeto.Location = new System.Drawing.Point(4, 5);
-            this.tblAlfabeto.Margin = new System.Windows.Forms.Padding(2);
-            this.tblAlfabeto.Name = "tblAlfabeto";
-            this.tblAlfabeto.RowHeadersWidth = 51;
-            this.tblAlfabeto.Size = new System.Drawing.Size(785, 495);
-            this.tblAlfabeto.TabIndex = 0;
-            this.tblAlfabeto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TblAlfabeto_CellContentClick);
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(11, 6);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(427, 496);
-            this.richTextBox1.TabIndex = 7;
-            this.richTextBox1.Text = "";
+            this.button1.Location = new System.Drawing.Point(6, 6);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(427, 44);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Leer Archivo";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // winLexico
             // 
@@ -247,9 +247,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.tblValor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblPrifil)).EndInit();
             this.tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tblAlfabeto)).EndInit();
             this.tabPage4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tblMovimientos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tblAlfabeto)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -257,7 +257,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView tblTrancisiones;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage Tabla;
@@ -271,6 +270,7 @@
         private System.Windows.Forms.DataGridView tblValor;
         private System.Windows.Forms.DataGridView tblMovimientos;
         private System.Windows.Forms.DataGridView tblAlfabeto;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox txtLexico;
+        private System.Windows.Forms.Button button1;
     }
 }

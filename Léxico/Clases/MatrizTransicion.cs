@@ -21,8 +21,6 @@ namespace ProyectoCompiladores.Léxico.Clases
             {
                 for (int j = 0; j < dt.Columns.Count; j++)
                 {
-
-
                     if (j == 0)
                     {
 
@@ -129,11 +127,13 @@ namespace ProyectoCompiladores.Léxico.Clases
         public int acceso(int i, int j)
         {
 
+     
+
+
             int prifil = Convert.ToInt32(matrizPrifil()[i].Prifil);
             int repeteiciones = Convert.ToInt32(matrizPrifil()[i].Fila);
             int valor = -999;
-            // int valor = -999;
-            // string a = "";
+
 
 
             for (int k = prifil; k < prifil + repeteiciones; k++)
@@ -141,27 +141,27 @@ namespace ProyectoCompiladores.Léxico.Clases
 
                 if (j == Convert.ToInt32(matrizValor()[k].Columna))
                 {
-                    //Console.WriteLine(
-                    //                   );
-                    //a = "ID:" + matrizValor()[k].Id +
-                    //                    " Valor:" + matrizValor()[k].Valor +
-                    //                    " Columna:" + matrizValor()[k].Columna;
+
                     valor = Convert.ToInt32(matrizValor()[k].Valor);
 
                     break;
                 }
 
             }
-          
+
+
+
 
             return valor;
         }
 
-        public List<movimientos> movimientos()
+        public List<movimientos> movimientos(String cadena)
         {
             List<movimientos> lista = new List<movimientos>();
             movimientos misMovimientos;
-            string cadena = "for$";
+            
+
+
             char[] cortar = cadena.ToCharArray();
             int valor = 0;
             int aux = 0;
@@ -173,12 +173,18 @@ namespace ProyectoCompiladores.Léxico.Clases
 
                     if (cortar[i].Equals(Convert.ToChar(MTransicion[0, j])))
                     {
-                        valor = acceso(valor, j);  
+                        if (valor == -999 || valor<0)
+                        {
+                            valor = 0;
+                            aux = 0;
+                        }
+                        valor = acceso(valor, j);
+
                         misMovimientos = new movimientos
                         {
-                            EstadoInicial = aux+"",
+                            EstadoInicial = aux + "",
                             Leyendo = MTransicion[0, j],
-                            EstadoFinal = valor+""
+                            EstadoFinal = valor + ""
                         };
                         aux = valor;
                         lista.Add(misMovimientos);

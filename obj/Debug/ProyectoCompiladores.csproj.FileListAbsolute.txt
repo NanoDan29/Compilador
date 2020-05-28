@@ -19,3 +19,24 @@ C:\Users\Jhoel Malte\source\repos\ProyectoCompiladores\obj\Debug\ProyectoCompila
 C:\Users\Jhoel Malte\source\repos\ProyectoCompiladores\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Jhoel Malte\source\repos\ProyectoCompiladores\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Jhoel Malte\source\repos\ProyectoCompiladores\obj\Debug\ProyectoCompiladores.Principal.resources
+C:\Users\jowel\Desktop\Compilador\bin\Debug\ProyectoCompiladores.exe.config
+C:\Users\jowel\Desktop\Compilador\bin\Debug\ProyectoCompiladores.exe
+C:\Users\jowel\Desktop\Compilador\bin\Debug\ProyectoCompiladores.pdb
+C:\Users\jowel\Desktop\Compilador\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\jowel\Desktop\Compilador\bin\Debug\ExcelDataReader.dll
+C:\Users\jowel\Desktop\Compilador\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jowel\Desktop\Compilador\bin\Debug\ExcelDataReader.pdb
+C:\Users\jowel\Desktop\Compilador\bin\Debug\ExcelDataReader.xml
+C:\Users\jowel\Desktop\Compilador\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\jowel\Desktop\Compilador\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\jowel\Desktop\Compilador\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.csprojAssemblyReference.cache
+C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.csproj.ResolveComReference.cache
+C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.Principal.resources
+C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.Léxico.Views.winLexico.resources
+C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.Properties.Resources.resources
+C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.csproj.GenerateResource.cache
+C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.csproj.CoreCompileInputs.cache
+C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.csproj.CopyComplete
+C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.exe
+C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.pdb
