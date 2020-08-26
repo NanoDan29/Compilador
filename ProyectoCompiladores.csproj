@@ -56,6 +56,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Sintáctico\Clases\AnalizadorGramatica.cs" />
+    <Compile Include="Sintáctico\Métodos\First.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +78,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sintáctico\Métodos\movimeintoAccion.cs" />
+    <Compile Include="Sintáctico\Métodos\movimientosEntrada.cs" />
+    <Compile Include="Sintáctico\Métodos\movimientosPila.cs" />
+    <Compile Include="Sintáctico\Métodos\Next.cs" />
+    <Compile Include="Sintáctico\Métodos\pilaSintactica1.cs" />
+    <Compile Include="Sintáctico\Métodos\pilaSintactica.cs" />
+    <Compile Include="Sintáctico\Métodos\Reglas Gramaticales.cs" />
+    <Compile Include="Sintáctico\Views\winSintactico.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sintáctico\Views\winSintactico.Designer.cs">
+      <DependentUpon>winSintactico.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +106,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Sintáctico\Views\winSintactico.resx">
+      <DependentUpon>winSintactico.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -8,9 +8,8 @@ namespace ProyectoCompiladores.Léxico.Clases
     class MatrizTransicion
     {
 
+
         string[,] MTransicion;
-
-
 
         public string[,] matrizTransicion(DataTable dt)
         {
@@ -21,16 +20,7 @@ namespace ProyectoCompiladores.Léxico.Clases
             {
                 for (int j = 0; j < dt.Columns.Count; j++)
                 {
-                    if (j == 0)
-                    {
-
-                    }
-                    else
-                    {
-
-                        MTransicion[i, j - 1] = dt.Rows[i][j].ToString();
-
-                    }
+                    if (j != 0) MTransicion[i, j - 1] = dt.Rows[i][j].ToString();
                 }
             }
             return MTransicion;
@@ -127,9 +117,6 @@ namespace ProyectoCompiladores.Léxico.Clases
         public int acceso(int i, int j)
         {
 
-     
-
-
             int prifil = Convert.ToInt32(matrizPrifil()[i].Prifil);
             int repeteiciones = Convert.ToInt32(matrizPrifil()[i].Fila);
             int valor = -999;
@@ -159,12 +146,12 @@ namespace ProyectoCompiladores.Léxico.Clases
         {
             List<movimientos> lista = new List<movimientos>();
             movimientos misMovimientos;
-            
-
 
             char[] cortar = cadena.ToCharArray();
             int valor = 0;
             int aux = 0;
+
+
 
             for (int i = 0; i < cortar.Length; i++)
             {
@@ -173,20 +160,23 @@ namespace ProyectoCompiladores.Léxico.Clases
 
                     if (cortar[i].Equals(Convert.ToChar(MTransicion[0, j])))
                     {
-                        if (valor == -999 || valor<0)
+                        if (valor < 0)
                         {
+
                             valor = 0;
                             aux = 0;
+
                         }
                         valor = acceso(valor, j);
 
                         misMovimientos = new movimientos
                         {
-                            EstadoInicial = aux + "",
+                            EstadoInicial = aux,
                             Leyendo = MTransicion[0, j],
-                            EstadoFinal = valor + ""
+                            EstadoFinal = valor
                         };
                         aux = valor;
+
                         lista.Add(misMovimientos);
                     }
 
@@ -195,6 +185,8 @@ namespace ProyectoCompiladores.Léxico.Clases
                 }
 
             }
+
+
             return lista;
         }
     }

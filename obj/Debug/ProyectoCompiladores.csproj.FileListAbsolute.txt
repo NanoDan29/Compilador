@@ -40,3 +40,4 @@ C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.csproj.CoreComp
 C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.csproj.CopyComplete
 C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.exe
 C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.pdb
+C:\Users\jowel\Desktop\Compilador\obj\Debug\ProyectoCompiladores.Sintáctico.Views.winSintactico.resources
